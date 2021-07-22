@@ -1,0 +1,38 @@
+/* pink and purple header colours*/
+
+.pinksection { color:rgb(221, 125, 125); }
+.purplesection { font-size: 120%; color:rgb(165, 5, 165) }
+
+
+body{
+
+    /* site page background color*/ 
+    
+    background-color: rgb(177, 175, 175) (116, 199, 181);
+}
+
+a:link, a:visited, a:active 
+
+
+{ 
+
+
+
+    /* color of links*/ 
+
+    background-color:orangered; 
+    color: white;  
+    text-align: center; 
+    text-decoration: navy; 
+    display: inline-block; 
+}
+
+a:hover
+{
+    background-color:rgb(131, 7, 248); 
+}
+
+nav {
+    height: 50px;
+    background-color: lightgrey;
+  }
