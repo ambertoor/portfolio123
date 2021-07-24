@@ -20,19 +20,26 @@ a:link, a:visited, a:active
 
     /* color of links*/ 
 
-    background-color:orangered; 
-    color: white;  
+    color: black;  
     text-align: center; 
     text-decoration: navy; 
     display: inline-block; 
 }
 
+    /* hovering over tags*/
 a:hover
 {
     background-color:rgb(131, 7, 248); 
 }
 
+    /* navigation bar color*/ 
 nav {
     height: 50px;
     background-color: lightgrey;
+  }
+
+    /* padding + display */ 
+  .inline-block {
+    padding: 15px; 
+    display: inline-block;
   }
