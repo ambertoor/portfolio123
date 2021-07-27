@@ -1,25 +1,15 @@
 /* pink and purple header colours*/
 
-.pinksection { color:rgb(221, 125, 125); }
-.purplesection { font-size: 120%; color:rgb(165, 5, 165) }
 
 
 body{
-
     /* site page background color*/ 
-    
-    background-color: rgb(177, 175, 175) (116, 199, 181);
+    background-color: rgb(196, 88, 88) (116, 199, 181);
 }
 
 a:link, a:visited, a:active 
-
-
 { 
-
-
-
     /* color of links*/ 
-
     color: black;  
     text-align: center; 
     text-decoration: navy; 
@@ -29,17 +19,69 @@ a:link, a:visited, a:active
     /* hovering over tags*/
 a:hover
 {
-    background-color:rgb(131, 7, 248); 
+    background-color:rgb(255, 152, 224); 
 }
 
     /* navigation bar color*/ 
 nav {
-    height: 50px;
-    background-color: lightgrey;
+    height: 60px;
+    background-color: rgb(250, 189, 199);
   }
 
     /* padding + display */ 
   .inline-block {
-    padding: 15px; 
+    padding: 10px; 
     display: inline-block;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1
+
+  { 
+  padding: 0px;
+  font-weight:bold;
+    font-style: italic;
+    font-family: arial, helvetica, sans-serif; 
+    size: 500%; 
+
+  }
+  
+  
+  
+  h2
+   {
+    font-weight:bold;
+    font-style: italic;
+    font-family: arial, helvetica, sans-serif; 
+    size: 500%; 
+  }
+
+  h3
+  { 
+  padding: 0px;
+  font-style: italic;
+  font-weight:bold;
+  }
+
+  h4 
+  { 
+    color:black;
+    padding: 0px;
+    font-weight: 0;
   }
