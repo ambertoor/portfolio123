@@ -39,17 +39,36 @@ nav {
     box-sizing: border-box;
   }
   
-  .column {
+  .index_column {
     float: left;
     width: 33.33%;
   }
   
   /* Clearfix (clear floats) */
-  .row::after {
+  .index_row::after {
     content: "";
     clear: both;
     display: table;
   }
+
+
+  .gallery_column {
+    float: left;
+    width: 50%;
+    padding: 10px
+  }
+  
+  /* Clearfix (clear floats) */
+  .gallery_row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+
+  }
+
+
+
 
   h1
 
@@ -85,3 +104,5 @@ nav {
     padding: 0px;
     font-weight: 0;
   }
+
+  
